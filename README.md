@@ -1,1 +1,3 @@
 # Landing-Page
+
+This is an exploration of a landing page styled website. Following a design (https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png) provided by The Odin Proyect (https://www.theodinproject.com/) i'll code a website as similar as i can. The theme i've picked to do this is based on a Dungeons & Dragons game my friends and i run every saturday.

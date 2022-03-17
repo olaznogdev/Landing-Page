@@ -6,11 +6,10 @@ body{
 }
 .first-block{
     display: block;
-    width: 70%;
-    /*justify-content: center;*/
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
 }
 .header{
     justify-content: space-between;
@@ -46,6 +45,7 @@ a{
     font-family: 'Roboto', sans-serif; 
     font-size: 48px;
     font-weight: 700;
+    padding: 0px;
 }
 .hero-text{
     font-size: 18px;
@@ -67,15 +67,17 @@ a{
 .hero-img{
     width: 500px;
     height: 250px;
+    margin-top: 8px;
 }
 
 .second-block{
     background-color: white;
-    height: 420px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     padding-top: 100px;
     align-items: center;
+    justify-content: center;
 }
 
 .second-title{
@@ -108,7 +110,7 @@ a{
 }
 
 .third-block{
-    height: 450px;
+    height: 650px;
     background-color: #E5E7EB;
     display: flex;
     justify-content: center;
@@ -116,7 +118,7 @@ a{
 }
 .quote-box{
     width: 50%;
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     display: flex;
     flex-wrap: wrap;

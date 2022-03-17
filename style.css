@@ -1,6 +1,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #1F2937;
+    display:block;
+    margin: 0px;
 }
 .first-block{
     display: block;
@@ -8,6 +10,7 @@ body{
     /*justify-content: center;*/
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 150px;
 }
 .header{
     justify-content: space-between;
@@ -16,6 +19,7 @@ body{
     width: 100%;
     height: 50px;
     background-color: #1F2937;
+    margin-top: 8px;
 }
 .logo{
     color: #F9FAF8;
@@ -39,12 +43,14 @@ a{
     width: 50%;
 }
 .hero-title{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif; 
     font-size: 48px;
     font-weight: 700;
 }
 .hero-text{
     font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .hero-button{
     padding: 8px;
@@ -61,4 +67,102 @@ a{
 .hero-img{
     width: 500px;
     height: 250px;
+}
+
+.second-block{
+    background-color: white;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.second-title{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+}
+.boxes{
+    display: inline-flex;
+    width: 60%;
+    gap: 50px;
+    
+}
+.boxes img{
+    border: solid #3882F6 5px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.box-text{
+    width:150px;
+    height: 150px;
+    text-align: center;
+}
+
+.third-block{
+    height: 450px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-box{
+    width: 50%;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+}
+.quote-author{
+    margin-left:auto;
+}
+.fourth-block{
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-box{
+    width: 75%;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    color:#E5E7EB;
+}
+.call-box button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 1px #E5E7EB;
+    background-color: transparent;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.call-title{
+    margin-bottom: 0px;
+}
+.call-text{
+    margin-top: 0px;
+}
+.footer{
+    height: 100px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
